@@ -20,6 +20,7 @@ toggle.onclick = function() {
     if (toggle.style.backgroundColor === 'red') {
         toggle.style.backgroundColor = 'gray';
         toggleBall.style.transform = 'translateX(0px)';
+        toggleBall.style.backgroundColor = '#fff';
         body.style.backgroundColor = 'white';
         topBgBlock.style.backgroundColor = 'rgb(247, 247, 247)';
         HeadPageHeader.style.color = 'rgb(51, 51, 51)';
@@ -60,6 +61,7 @@ toggle.onclick = function() {
     } else {
         toggle.style.backgroundColor = 'red';
         toggleBall.style.transform = 'translateX(25px)';
+        toggleBall.style.backgroundColor = 'hsl(230, 17%, 14%)';
         body.style.backgroundColor = 'hsl(230, 17%, 14%)';
         topBgBlock.style.backgroundColor = 'hsl(232, 19%, 15%)';
         HeadPageHeader.style.color = '#fff';
