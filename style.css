@@ -74,6 +74,7 @@ body {
     border-radius: 5px;
     background-color: rgb(238, 238, 238);
     transition: background-color 0.5s ease;
+    margin: 0 20px 20px;
 }
 .total_card .icon_and_link {
     display: flex;
@@ -219,7 +220,7 @@ body {
     color: hotpink;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 800px) {
     .container {
         padding: 0 20px;
     }
@@ -238,9 +239,12 @@ body {
         border-bottom: 1px solid rgb(128, 128, 128);
         padding-bottom: 20px;
         margin-bottom: 20px;
+        width: 100%;
     }
     .toggle {
         width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
     }
     .total_content {
         justify-content: center;
