@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container header">
+    <div class="head">
+      <h1>Social Media Dashboard</h1>
+      <span class="head_descr">Total Followers: 23,004</span>
+    </div>
+    <div class="toggle">
+      <input type="checkbox" name="theme" id="theme" class="checkbox_theme">
+      <label for="theme" class="theme_text">Dark Mode</label>
+      <div class="toggle_container">
+        <div class="ball"></div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="total">
+  <div class="container">
+    <div class="total_content">
+      <div class="total_card facebook">
+        <div class="icon_and_link">
+          <img src="images/icon-facebook.svg" alt="Facebook">
+          @nathanf
+        </div>
+        <div class="total_value">1987</div>
+        <div class="total_descr">Followers</div>
+        <div class="total_today_value">12 Today</div>
+      </div>
+      <div class="total_card twitter">
+        <div class="icon_and_link">
+          <img src="images/icon-twitter.svg" alt="Twitter">
+          @nathanf
+        </div>
+        <div class="total_value">1044</div>
+        <div class="total_descr">Followers</div>
+        <div class="total_today_value">99 Today</div>
+      </div>
+      <div class="total_card instagram">
+        <div class="icon_and_link">
+          <img src="images/icon-instagram.svg" alt="Instagram">
+          @realnathanf
+        </div>
+        <div class="total_value">11k</div>
+        <div class="total_descr">Followers</div>
+        <div class="total_today_value">1099 Today</div>
+      </div>
+      <div class="total_card youtube">
+        <div class="icon_and_link">
+          <img src="images/icon-youtube.svg" alt="YouTube">
+          Nathan F.
+        </div>
+        <div class="total_value">8239</div>
+        <div class="total_descr">Subscribers</div>
+        <div class="total_today_value">144 Today</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="today">
+  <div class="container">
+    <h2>Overview - Today</h2>
+    <div class="today_content">
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Page Views</div>
+          <img src="images/icon-facebook.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">87</div>
+          <div class="today_dynamic">3%</div>
+        </div>
+      </div>
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Likes</div>
+          <img src="images/icon-facebook.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">52</div>
+          <div class="today_dynamic negative">2%</div>
+        </div>
+      </div>
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Likes</div>
+          <img src="images/icon-instagram.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">5462</div>
+          <div class="today_dynamic">2257%</div>
+        </div>
+      </div>
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Profile Views</div>
+          <img src="images/icon-instagram.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">52k</div>
+          <div class="today_dynamic">1375%</div>
+        </div>
+      </div>
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Retweets</div>
+          <img src="images/icon-twitter.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">117</div>
+          <div class="today_dynamic">303%</div>
+        </div>
+      </div>
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Likes</div>
+          <img src="images/icon-twitter.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">507</div>
+          <div class="today_dynamic">553%</div>
+        </div>
+      </div>
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Likes</div>
+          <img src="images/icon-youtube.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">107</div>
+          <div class="today_dynamic negative">19%</div>
+        </div>
+      </div>
+      <div class="today_card">
+        <div class="first_line">
+          <div class="today_descr">Total Views</div>
+          <img src="images/icon-youtube.svg" class="today_icon"></img>
+        </div>
+        <div class="second_line">
+          <div class="today_value">1407</div>
+          <div class="today_dynamic negative">12%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="background"></div>
+  <div class="attribution">
+    <span class="attribution_text">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="attribution_link">Frontend Mentor</a></span>
+    <br>
+    <span class="attribution_text">Coded with 💜 by <a href="https://www.instagram.com/cassie_whoree/" target="_blank" class="attribution_link">Aleksey Kononenko</a></span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
